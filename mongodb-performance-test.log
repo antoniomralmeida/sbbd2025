@@ -262,3 +262,109 @@
 2025-03-26 17:51:46,087 [pool-3-thread-11] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:21, serverValue:106}] to localhost:27017
 2025-03-26 17:51:46,088 [pool-3-thread-18] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:15, serverValue:110}] to localhost:27017
 2025-03-26 17:51:46,089 [pool-3-thread-3] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:16, serverValue:109}] to localhost:27017
+2025-03-26 18:51:46,017 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Done (timed out) in 3599947 ms 
+2025-03-26 18:51:46,022 [main] INFO  d.i.mongodb.perf.Main - OPERATION SETUP: Adding run mode UPDATE_ONE
+2025-03-26 18:51:46,024 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - affected documents: 41480494
+2025-03-26 18:51:46,024 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - count: 41480494
+2025-03-26 18:51:46,025 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - FifteenMinuteRate: 11601.36402197203
+2025-03-26 18:51:46,025 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - FiveMinuteRate: 11580.65607600437
+2025-03-26 18:51:46,025 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - OneMinuteRate: 11641.968539323714
+2025-03-26 18:51:46,025 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - MeanRate: 11522.24608590853
+2025-03-26 18:51:46,027 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 75thPercentile: 1.826876
+2025-03-26 18:51:46,027 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 95thPercentile: 2.1097289999999997
+2025-03-26 18:51:46,029 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 98thPercentile: 2.357519
+2025-03-26 18:51:46,029 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 99thPercentile: 2.897586
+2025-03-26 18:51:46,029 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 999thPercentile: 3.558074
+2025-03-26 18:51:46,029 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Min: 1.0511
+2025-03-26 18:51:46,029 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Max: 3.80788
+2025-03-26 18:51:46,029 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Mean: 1.7256317882158039
+2025-03-26 18:51:46,029 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Median: 1.6859609999999998
+2025-03-26 18:51:46,029 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot StdDev: 0.2684592696998626
+2025-03-26 18:51:46,029 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Size: 1028
+2025-03-26 18:51:46,033 [main] INFO  d.i.m.p.OperationExecutor - >>> OperationExecutor threadCount: 30, opsCount: 0, maxDurationInSeconds: 3600, operation: UpdateOperation
+2025-03-26 18:51:46,034 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - stopReporters
+2025-03-26 18:51:46,034 [main] INFO  d.i.m.p.OperationExecutor - java execution path: /Users/manoelribeiroalmeida/Desktop/dev/sbbd2025/test.jar
+2025-03-26 18:51:46,037 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - consoleReporter stopped
+2025-03-26 18:51:46,037 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - allConsoleReporter stopped
+2025-03-26 18:51:46,038 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - csvReporter stopped
+2025-03-26 18:51:46,038 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - If run took more than 1 second, csv-file 'stats-per-second-UPDATE_ONE.csv' saved in folder: /Users/manoelribeiroalmeida/Desktop/dev/sbbd2025
+2025-03-26 18:51:46,039 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - csvReporterAll stopped
+2025-03-26 18:51:46,039 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Summary of statistics saved in csv-file 'stats-per-run-UPDATE_ONE.csv' located in folder: /Users/manoelribeiroalmeida/Desktop/dev/sbbd2025
+2025-03-26 18:51:46,061 [pool-4-thread-24] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:22, serverValue:111}] to localhost:27017
+2025-03-26 18:51:46,061 [pool-4-thread-28] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:29, serverValue:113}] to localhost:27017
+2025-03-26 18:51:46,061 [pool-4-thread-23] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:26, serverValue:112}] to localhost:27017
+2025-03-26 18:51:46,062 [pool-4-thread-20] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:28, serverValue:115}] to localhost:27017
+2025-03-26 18:51:46,062 [pool-4-thread-26] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:31, serverValue:114}] to localhost:27017
+2025-03-26 18:51:46,062 [pool-4-thread-27] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:25, serverValue:116}] to localhost:27017
+2025-03-26 18:51:46,063 [pool-4-thread-25] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:27, serverValue:117}] to localhost:27017
+2025-03-26 18:51:46,063 [pool-4-thread-21] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:23, serverValue:118}] to localhost:27017
+2025-03-26 18:51:46,065 [pool-4-thread-29] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:24, serverValue:119}] to localhost:27017
+2025-03-26 18:51:46,065 [pool-4-thread-22] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:30, serverValue:120}] to localhost:27017
+2025-03-26 19:51:46,084 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Done (timed out) in 3600043 ms 
+2025-03-26 19:51:46,085 [main] INFO  d.i.m.p.MongoDbAccessor - >>> closeConnections localhost:27017
+2025-03-26 19:51:46,086 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - affected documents: 43427518
+2025-03-26 19:51:46,086 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - count: 43427518
+2025-03-26 19:51:46,086 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - FifteenMinuteRate: 12126.219616541806
+2025-03-26 19:51:46,086 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - FiveMinuteRate: 12146.758596653895
+2025-03-26 19:51:46,086 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - OneMinuteRate: 12205.378072782616
+2025-03-26 19:51:46,086 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - MeanRate: 12063.15658609983
+2025-03-26 19:51:46,087 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 75thPercentile: 2.599353
+2025-03-26 19:51:46,087 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 95thPercentile: 2.889566
+2025-03-26 19:51:46,087 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 98thPercentile: 3.1474629999999997
+2025-03-26 19:51:46,087 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 99thPercentile: 3.437299
+2025-03-26 19:51:46,087 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 999thPercentile: 4.0124629999999994
+2025-03-26 19:51:46,087 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Min: 1.793515
+2025-03-26 19:51:46,088 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Max: 5.315976
+2025-03-26 19:51:46,088 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Mean: 2.452921878531816
+2025-03-26 19:51:46,088 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Median: 2.417741
+2025-03-26 19:51:46,088 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot StdDev: 0.2806971044738575
+2025-03-26 19:51:46,088 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Size: 1028
+2025-03-26 19:51:46,090 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - stopReporters
+2025-03-26 19:51:46,092 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - consoleReporter stopped
+2025-03-26 19:51:46,092 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - allConsoleReporter stopped
+2025-03-26 19:51:46,094 [main] INFO  d.i.m.p.MongoDbAccessor - <<< closeConnections localhost:27017
+2025-03-26 19:51:46,094 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - csvReporter stopped
+2025-03-26 19:51:46,094 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - If run took more than 1 second, csv-file 'stats-per-second-UPDATE_ONE.csv' saved in folder: /Users/manoelribeiroalmeida/Desktop/dev/sbbd2025
+2025-03-26 19:51:46,094 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - csvReporterAll stopped
+2025-03-26 19:51:46,094 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Summary of statistics saved in csv-file 'stats-per-run-UPDATE_ONE.csv' located in folder: /Users/manoelribeiroalmeida/Desktop/dev/sbbd2025
+2025-03-26 19:51:46,781 [main] ERROR d.i.mongodb.perf.Main - Missing argument for option: h
+2025-03-26 19:51:47,292 [main] ERROR d.i.mongodb.perf.Main - Missing argument for option: h
+2025-03-26 19:51:47,801 [main] ERROR d.i.mongodb.perf.Main - Missing argument for option: h
+2025-03-26 19:51:48,298 [main] INFO  d.i.m.p.MongoDbAccessor - >>> init localhost:27017
+2025-03-26 19:51:48,498 [main] INFO  o.mongodb.driver.cluster - Cluster created with settings {hosts=[:27017:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName=''}
+2025-03-26 19:51:48,498 [main] INFO  o.mongodb.driver.cluster - Adding discovered server :27017:27017 to client view of cluster
+2025-03-26 19:51:48,521 [main] INFO  d.i.m.p.MongoDbAccessor - <<< init
+2025-03-26 19:51:48,521 [main] INFO  d.i.mongodb.perf.Main - OPERATION SETUP: Total modes 2
+2025-03-26 19:51:48,521 [main] INFO  d.i.mongodb.perf.Main - OPERATION SETUP: Adding run mode UPDATE_ONE
+2025-03-26 19:51:48,520 [cluster-ClusterId{value='67e48504b7bd8a236071f17d', description='null'}-:27017:27017] INFO  o.mongodb.driver.cluster - Exception in monitor thread while connecting to server :27017:27017
+com.mongodb.MongoSocketException: :27017: invalid IPv6 address literal
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.UnknownHostException: :27017: invalid IPv6 address literal
+	at java.base/java.net.InetAddress.invalidIPv6LiteralException(InetAddress.java:1693)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1663)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 5 common frames omitted
+2025-03-26 19:51:48,533 [main] INFO  o.mongodb.driver.cluster - No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@448c8166 from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=:27017:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketException: :27017: invalid IPv6 address literal}, caused by {java.net.UnknownHostException: :27017: invalid IPv6 address literal}}]}. Waiting for 30000 ms before timing out
+2025-03-26 19:52:18,540 [main] ERROR d.i.mongodb.perf.Main - OPERATION SETUP: Error while waiting on thread... exiting now.
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches com.mongodb.client.internal.MongoClientDelegate$1@448c8166. Client view of cluster state is {type=REPLICA_SET, servers=[{address=:27017:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketException: :27017: invalid IPv6 address literal}, caused by {java.net.UnknownHostException: :27017: invalid IPv6 address literal}}]
+	at com.mongodb.internal.connection.BaseCluster.createTimeoutException(BaseCluster.java:408)
+	at com.mongodb.internal.connection.BaseCluster.selectServer(BaseCluster.java:123)
+	at com.mongodb.internal.connection.AbstractMultiServerCluster.selectServer(AbstractMultiServerCluster.java:54)
+	at com.mongodb.client.internal.MongoClientDelegate.getConnectedClusterDescription(MongoClientDelegate.java:157)
+	at com.mongodb.client.internal.MongoClientDelegate.createClientSession(MongoClientDelegate.java:105)
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.getClientSession(MongoClientDelegate.java:287)
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.execute(MongoClientDelegate.java:211)
+	at com.mongodb.client.internal.MongoCollectionImpl.executeCreateIndexes(MongoCollectionImpl.java:891)
+	at com.mongodb.client.internal.MongoCollectionImpl.createIndexes(MongoCollectionImpl.java:874)
+	at com.mongodb.client.internal.MongoCollectionImpl.createIndexes(MongoCollectionImpl.java:869)
+	at com.mongodb.client.internal.MongoCollectionImpl.createIndex(MongoCollectionImpl.java:854)
+	at de.idealo.mongodb.perf.operations.AbstractOperation.initCollectionInfo(AbstractOperation.java:47)
+	at de.idealo.mongodb.perf.operations.AbstractOperation.<init>(AbstractOperation.java:38)
+	at de.idealo.mongodb.perf.operations.UpdateOperation.<init>(UpdateOperation.java:15)
+	at de.idealo.mongodb.perf.Main.executeOperations(Main.java:326)
+	at de.idealo.mongodb.perf.Main.main(Main.java:373)
