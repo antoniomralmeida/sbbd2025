@@ -223,3 +223,42 @@
 2025-03-26 16:51:46,067 [pool-2-thread-8] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:9, serverValue:98}] to localhost:27017
 2025-03-26 16:51:46,068 [pool-2-thread-10] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:10, serverValue:100}] to localhost:27017
 2025-03-26 16:51:46,068 [pool-2-thread-6] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:8, serverValue:99}] to localhost:27017
+2025-03-26 17:51:46,015 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Done (timed out) in 3599961 ms 
+2025-03-26 17:51:46,032 [main] INFO  d.i.mongodb.perf.Main - OPERATION SETUP: Adding run mode UPDATE_ONE
+2025-03-26 17:51:46,034 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - affected documents: 38289941
+2025-03-26 17:51:46,034 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - count: 38289941
+2025-03-26 17:51:46,034 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - FifteenMinuteRate: 10413.154886427521
+2025-03-26 17:51:46,035 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - FiveMinuteRate: 10140.801850811076
+2025-03-26 17:51:46,035 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - OneMinuteRate: 10028.807718115664
+2025-03-26 17:51:46,035 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - MeanRate: 10636.004083442198
+2025-03-26 17:51:46,046 [main] INFO  d.i.m.p.OperationExecutor - >>> OperationExecutor threadCount: 20, opsCount: 0, maxDurationInSeconds: 3600, operation: UpdateOperation
+2025-03-26 17:51:46,048 [main] INFO  d.i.m.p.OperationExecutor - java execution path: /Users/manoelribeiroalmeida/Desktop/dev/sbbd2025/test.jar
+2025-03-26 17:51:46,052 [main] INFO  d.i.mongodb.perf.Main - OPERATION SETUP: All run modes are running with their specified number of threads. Waiting on finishing of each run mode before continuing...
+2025-03-26 17:51:46,058 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 75thPercentile: 1.0570549999999999
+2025-03-26 17:51:46,058 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 95thPercentile: 1.24477
+2025-03-26 17:51:46,058 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 98thPercentile: 1.3519949999999998
+2025-03-26 17:51:46,058 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 99thPercentile: 1.4308429999999999
+2025-03-26 17:51:46,058 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot 999thPercentile: 7.7390039999999996
+2025-03-26 17:51:46,058 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Min: 0.610232
+2025-03-26 17:51:46,058 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Max: 7.7390039999999996
+2025-03-26 17:51:46,058 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Mean: 0.9963848044535736
+2025-03-26 17:51:46,058 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Median: 0.9660179999999999
+2025-03-26 17:51:46,059 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot StdDev: 0.3260109413299442
+2025-03-26 17:51:46,059 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Snapshot Size: 1028
+2025-03-26 17:51:46,063 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - stopReporters
+2025-03-26 17:51:46,066 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - consoleReporter stopped
+2025-03-26 17:51:46,066 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - allConsoleReporter stopped
+2025-03-26 17:51:46,067 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - csvReporter stopped
+2025-03-26 17:51:46,068 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - If run took more than 1 second, csv-file 'stats-per-second-UPDATE_ONE.csv' saved in folder: /Users/manoelribeiroalmeida/Desktop/dev/sbbd2025
+2025-03-26 17:51:46,068 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - csvReporterAll stopped
+2025-03-26 17:51:46,068 [pool-1-thread-1] INFO  d.i.m.p.OperationExecutor - Summary of statistics saved in csv-file 'stats-per-run-UPDATE_ONE.csv' located in folder: /Users/manoelribeiroalmeida/Desktop/dev/sbbd2025
+2025-03-26 17:51:46,082 [pool-3-thread-20] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:13, serverValue:101}] to localhost:27017
+2025-03-26 17:51:46,082 [pool-3-thread-9] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:18, serverValue:103}] to localhost:27017
+2025-03-26 17:51:46,083 [pool-3-thread-19] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:12, serverValue:104}] to localhost:27017
+2025-03-26 17:51:46,082 [pool-3-thread-10] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:20, serverValue:102}] to localhost:27017
+2025-03-26 17:51:46,085 [pool-3-thread-16] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:17, serverValue:105}] to localhost:27017
+2025-03-26 17:51:46,086 [pool-3-thread-5] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:14, serverValue:107}] to localhost:27017
+2025-03-26 17:51:46,087 [pool-3-thread-17] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:19, serverValue:108}] to localhost:27017
+2025-03-26 17:51:46,087 [pool-3-thread-11] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:21, serverValue:106}] to localhost:27017
+2025-03-26 17:51:46,088 [pool-3-thread-18] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:15, serverValue:110}] to localhost:27017
+2025-03-26 17:51:46,089 [pool-3-thread-3] INFO  o.m.driver.connection - Opened connection [connectionId{localValue:16, serverValue:109}] to localhost:27017
