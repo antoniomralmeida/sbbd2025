@@ -1,0 +1,85 @@
+2025-03-26 16:46:48,103 [main] INFO  d.i.mongodb.perf.MongoDbAccessor - >>> init localhost:27017
+2025-03-26 16:46:48,310 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=50000}
+2025-03-26 16:46:48,336 [main] INFO  d.i.mongodb.perf.MongoDbAccessor - <<< init
+2025-03-26 16:46:48,337 [main] INFO  de.idealo.mongodb.perf.Main - OPERATION SETUP: Total modes 2
+2025-03-26 16:46:48,337 [main] INFO  de.idealo.mongodb.perf.Main - OPERATION SETUP: Adding run mode UPDATE_ONE
+2025-03-26 16:46:48,353 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2025-03-26 16:46:48,371 [cluster-ClusterId{value='67e459a80b291d1d7693c5f3', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:56}] to localhost:27017
+2025-03-26 16:46:48,375 [cluster-ClusterId{value='67e459a80b291d1d7693c5f3', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[8, 0, 5]}, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2515337}
+2025-03-26 16:46:48,387 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:57}] to localhost:27017
+2025-03-26 16:46:48,413 [main] INFO  d.i.mongodb.perf.OperationExecutor - >>> OperationExecutor threadCount: 10, opsCount: 0, maxDurationInSeconds: 3600, operation: UpdateOperation
+2025-03-26 16:46:48,413 [main] INFO  d.i.mongodb.perf.OperationExecutor - java execution path: /Users/manoelribeiroalmeida/Desktop/dev/sbbd2025/mongodb-performance-test/latest-version/mongodb-performance-test.jar
+2025-03-26 16:46:48,425 [main] INFO  de.idealo.mongodb.perf.Main - OPERATION SETUP: Adding run mode ITERATE_MANY
+2025-03-26 16:46:48,443 [pool-2-thread-6] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:59}] to localhost:27017
+2025-03-26 16:46:48,443 [pool-2-thread-4] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:11, serverValue:61}] to localhost:27017
+2025-03-26 16:46:48,443 [pool-2-thread-9] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:58}] to localhost:27017
+2025-03-26 16:46:48,444 [pool-2-thread-5] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:60}] to localhost:27017
+2025-03-26 16:46:48,444 [pool-2-thread-8] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:62}] to localhost:27017
+2025-03-26 16:46:48,444 [pool-2-thread-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:63}] to localhost:27017
+2025-03-26 16:46:48,444 [pool-2-thread-2] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:64}] to localhost:27017
+2025-03-26 16:46:48,444 [pool-2-thread-3] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:9, serverValue:65}] to localhost:27017
+2025-03-26 16:46:48,445 [pool-2-thread-10] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:12, serverValue:66}] to localhost:27017
+2025-03-26 16:46:48,445 [pool-2-thread-7] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:10, serverValue:67}] to localhost:27017
+26/03/2025 16:46:49 ============================================================
+
+-- Timers ----------------------------------------------------------------------
+stats-per-second-UPDATE_ONE
+             count = 8263
+         mean rate = 8073,34 calls/second
+     1-minute rate = 0,00 calls/second
+     5-minute rate = 0,00 calls/second
+    15-minute rate = 0,00 calls/second
+               min = 0,65 milliseconds
+               max = 22,87 milliseconds
+              mean = 1,21 milliseconds
+            stddev = 0,95 milliseconds
+            median = 1,08 milliseconds
+              75% <= 1,26 milliseconds
+              95% <= 1,66 milliseconds
+              98% <= 2,52 milliseconds
+              99% <= 4,15 milliseconds
+            99.9% <= 22,66 milliseconds
+
+
+26/03/2025 16:46:50 ============================================================
+
+-- Timers ----------------------------------------------------------------------
+stats-per-second-UPDATE_ONE
+             count = 15716
+         mean rate = 7709,87 calls/second
+     1-minute rate = 0,00 calls/second
+     5-minute rate = 0,00 calls/second
+    15-minute rate = 0,00 calls/second
+               min = 0,72 milliseconds
+               max = 20,12 milliseconds
+              mean = 1,35 milliseconds
+            stddev = 0,77 milliseconds
+            median = 1,23 milliseconds
+              75% <= 1,40 milliseconds
+              95% <= 1,85 milliseconds
+              98% <= 2,49 milliseconds
+              99% <= 3,94 milliseconds
+            99.9% <= 11,81 milliseconds
+
+
+26/03/2025 16:46:51 ============================================================
+
+-- Timers ----------------------------------------------------------------------
+stats-per-second-UPDATE_ONE
+             count = 26604
+         mean rate = 8726,04 calls/second
+     1-minute rate = 0,00 calls/second
+     5-minute rate = 0,00 calls/second
+    15-minute rate = 0,00 calls/second
+               min = 0,56 milliseconds
+               max = 17,08 milliseconds
+              mean = 0,92 milliseconds
+            stddev = 0,39 milliseconds
+            median = 0,89 milliseconds
+              75% <= 0,96 milliseconds
+              95% <= 1,09 milliseconds
+              98% <= 1,18 milliseconds
+              99% <= 1,31 milliseconds
+            99.9% <= 7,40 milliseconds
+
+
