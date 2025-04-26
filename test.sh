@@ -4,7 +4,7 @@ host1=mongo1:27017
 host2=mongo2:27018
 host3=mongo3:27019
 replicaset=myReplicaSet
-primary=$host3
+primary=$host1
 
 jarfile=./mongodb-performance-test/latest-version/mongodb-performance-test.jar
 java -jar test.jar -m insert -o 1000000 -t 10 -h $primary -db test -c perf 
